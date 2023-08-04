@@ -1,0 +1,8 @@
+{
+    "dependencies": {
+        "express": "^4.17.3",
+        "path": "^0.12.7",
+        "serve-index": "^1.9.1",
+        "compression": "^1.7.4"
+    }
+}
