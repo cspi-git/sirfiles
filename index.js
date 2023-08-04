@@ -11,7 +11,7 @@ const web = express()
 const port = process.env.PORT || 8080
 
 /// Configurations
-//*r Express
+//* Express
 web.use(compression({ chunkSize: 65536 }))
 web.use(express.static(path.join(__dirname, "public")))
 web.use("/files", express.static(path.join(__dirname, "files")), serveIndex(path.join(__dirname, "files"), { stylesheet: path.join(__dirname, "custom.css"), icons: true }))
